@@ -13,9 +13,10 @@ public static class Sorting
 
       if (i <= j)
       {
-        int t = collection[i];
-        collection[i] = collection[j];
-        collection[j] = t;
+        // int t = collection[i];
+        // collection[i] = collection[j];
+        // collection[j] = t;
+        (collection[i], collection[j]) = (collection[j], collection[i]);
         i++;
         j--;
       }
