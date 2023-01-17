@@ -2,7 +2,7 @@ public static class Sorting
 {
   public static int[] SortQuick(this int[] collection, int left, int right)
   {
-    int i = left;
+    int i = left; 
     int j = right;
 
     int pivot = collection[Random.Shared.Next(left, right)];
